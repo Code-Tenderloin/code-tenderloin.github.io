@@ -9,6 +9,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require(`postcss-preset-env`)({ stage: 0 })],
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: { default: path.resolve('./src/components/layout.js') },
