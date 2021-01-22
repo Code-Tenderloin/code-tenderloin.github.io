@@ -1,27 +1,30 @@
-# Gatsby Starter MDX Basic
+# Code Tenderloin GitHub Portfolio
 
-View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
+View this starter [on GitHub Pages](https://code-tenderloin.github.io/)
 
-This starter build MDX support into the
-[gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
-README also applies here.
+MDX support provided by
+[gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default).
 
-1. Create a new Gatsby site using this starter
+## Todos
 
-```sh
-gatsby new my-site https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic
-```
+- [ ] Read frontmatter for project pages
+- [ ] Use frontmatter to generate index page
+- [ ] create shortcode component for project display
+- [ ] compile frontmatter into menus
+- [ ] track down 2019 OFA projects from 2019
 
-2. Install dependencies
+## Development
 
-```sh
-yarn
-```
-
-3. Run the develop script
+1. Install dependencies
 
 ```sh
-yarn develop
+npm install
 ```
 
-4. Edit Page 2 in `src/pages/page-2.mdx`
+2. Run the develop script
+
+```sh
+npm run develop
+```
+
+3. The live site is deployed when the main branch is updated on GitHub
