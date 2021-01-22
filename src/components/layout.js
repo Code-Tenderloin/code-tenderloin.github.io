@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
     render={(data) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
+        <div className="prose">
           <MDXProvider components={shortcodes}>{children}</MDXProvider>
         </div>
       </>
